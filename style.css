@@ -1,0 +1,133 @@
+body {
+    padding-top: 770px;
+    text-align: center;
+    margin: 0px;
+    color:#E3F2FD;
+  background:linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(64,9,121,1) 41%, rgba(87,0,255,1) 200%);
+}
+
+
+#pic1 {
+    width: 50%;
+    margin-bottom: 40px;
+    
+}
+
+#welcome {
+    height: 750px;
+    padding-top: 50px;
+    width: 100%;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    position: absolute;
+}
+
+#intro {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#heading1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 100px;
+    margin: 8px;
+    font-size: 35px;
+}
+
+p {
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    max-width: 900px;
+}
+
+#menu {
+    background: white;
+    font-family: sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10;
+
+}
+
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 30px
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+
+}
+
+#name {
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#contacts {
+    background: firebrick;
+}
+
+#contacts iframe {
+    width: 100%;
+
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+#h1{
+    font-size: 50px;
+}
+#articles img{
+  margin-left: 50px;
+    margin-top: 50px;
+    width: 35%;
+    transition:transform .1s;
+}
+#articles img:hover{
+transform: scale(0.8); 
+}
+#picstar{
+  width:500px
+}
